@@ -73,7 +73,7 @@
 				
 				<div class="form_field last_field">
 					<label>Business Hours?</label>
-					<input type="radio" name="b_hours" value="yes" />Yes
+					<input type="radio" checked="checked" checked="checked" name="b_hours" value="yes" />Yes
 					<input type="radio" name="b_hours" value="no" />No
 					<input type="radio" name="b_hours" value="not_avail" />N/A						
 				</div>
@@ -89,28 +89,28 @@
 			<form id="second_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is ATM hard-wired?</label>
-					<input type="radio" name="hard_wired" value="yes" />Yes
+					<input type="radio" checked="checked" name="hard_wired" value="yes" />Yes
 					<input type="radio" name="hard_wired" value="no" />No
 					<input type="radio" name="hard_wired" value="not_avail" />N/A
 				</div>
 				
 				<div class="form_field">
 					<label>Is power for ATM dedicated?</label>
-					<input type="radio" name="dedicated_power" value="yes" />Yes
+					<input type="radio" checked="checked" name="dedicated_power" value="yes" />Yes
 					<input type="radio" name="dedicated_power" value="no" />No
 					<input type="radio" name="dedicated_power" value="not_avail" />N/A
 				</div>
 				
 				<div class="form_field">
 					<label>If ATM plugs into Outlet, is other equipment using same outlet?</label>
-					<input type="radio" name="other_equipment_same_outlet" value="yes" />Yes
+					<input type="radio" checked="checked" name="other_equipment_same_outlet" value="yes" />Yes
 					<input type="radio" name="other_equipment_same_outlet" value="no" />No
 					<input type="radio" name="other_equipment_same_outlet" value="not_avail" />N/A
 				</div>
 				
 				<div class="form_field">
 					<label><i>If yes, can it be moved?</i></label>
-					<input type="radio" name="same_outlet_be_moved" value="yes" />Yes
+					<input type="radio" checked="checked" name="same_outlet_be_moved" value="yes" />Yes
 					<input type="radio" name="same_outlet_be_moved" value="no" />No
 					<input type="radio" name="same_outlet_be_moved" value="not_avail" />N/A
 				</div>
@@ -122,7 +122,7 @@
 				
 				<div class="form_field">
 					<label>Are there two (2) LAN drops?</label>
-					<input type="radio" name="lan_drops" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_drops" value="yes" />Yes
 					<input type="radio" name="lan_drops" value="no" />No
 				</div>
 				
@@ -162,25 +162,25 @@
 			<form id="third_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is there a ramp from the road to access the sidewalk?</label>
-					<input type="radio" name="ramp_from_road" value="yes" />Yes
+					<input type="radio" checked="checked" name="ramp_from_road" value="yes" />Yes
 					<input type="radio" name="ramp_from_road" value="no" />No
 				</div>
 				
 				<div class="form_field">
 					<label>Is there a ramp from the sidewalk to access the ATM?</label>
-					<input type="radio" name="ramp_from_sidewalk" value="yes" />Yes
+					<input type="radio" checked="checked" name="ramp_from_sidewalk" value="yes" />Yes
 					<input type="radio" name="ramp_from_sidewalk" value="no" />No
 				</div>	
 				
 				<div class="form_field">
 					<label>Any obstructions in the way? I.E. trashcans, landscaping</label>
-					<input type="radio" name="obstructions" value="yes" />Yes
+					<input type="radio" checked="checked" name="obstructions" value="yes" />Yes
 					<input type="radio" name="obstructions" value="no" />No
 				</div>	
 				
 				<div class="form_field last_field">
 					<label>Is the pathway leading to the ATM level?</label>
-					<input type="radio" name="pathway" value="yes" />Yes
+					<input type="radio" checked="checked" name="pathway" value="yes" />Yes
 					<input type="radio" name="pathway" value="no" />No
 				</div>
 								
@@ -195,7 +195,7 @@
 			<form id="fourth_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is a Surveillance system present?</label>
-					<input type="radio" name="surveillance_present" value="yes" />Yes
+					<input type="radio" checked="checked" name="surveillance_present" value="yes" />Yes
 					<input type="radio" name="surveillance_present" value="no" />No
 					<input type="radio" name="surveillance_present" value="not_avail" />N/A
 				</div>
@@ -210,7 +210,7 @@
 				
 				<div class="form_field">
 					<label>Is there one (1) LAN drop for DVR/VCR system?</label>
-					<input type="radio" name="lan_drop_vcr_dvr" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_drop_vcr_dvr" value="yes" />Yes
 					<input type="radio" name="lan_drop_vcr_dvr" value="no" />No
 				</div>
 				
@@ -221,13 +221,13 @@
 				
 				<div class="form_field">
 					<label>Is the pathway leading to the ATM level?</label>
-					<input type="radio" name="pathway" value="yes" />Yes
+					<input type="radio" checked="checked" name="pathway" value="yes" />Yes
 					<input type="radio" name="pathway" value="no" />No
 				</div>
 				
 				<div class="form_field">
 					<label>Are there any obstacles in the way?</label>
-					<input type="radio" name="obstacles" value="yes" />Yes
+					<input type="radio" checked="checked" name="obstacles" value="yes" />Yes
 					<input type="radio" name="obstacles" value="no" />No
 				</div>
 				
@@ -238,7 +238,7 @@
 				
 				<div class="form_field">
 					<label>Do any existing LAN drops need to be redone or replaced?</label>
-					<input type="radio" name="lan_redone_replaced" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_redone_replaced" value="yes" />Yes
 					<input type="radio" name="lan_redone_replaced" value="no" />No
 				</div>
 				
@@ -258,7 +258,7 @@
 			<form id="fifth_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is there one (1) LAN drop for the alarm panel?</label>
-					<input type="radio" name="lan_drop_alarm" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_drop_alarm" value="yes" />Yes
 					<input type="radio" name="lan_drop_alarm" value="no" />No
 				</div>
 				
@@ -269,13 +269,13 @@
 				
 				<div class="form_field">
 					<label>Are there any obstacles in the way?</label>
-					<input type="radio" name="obstacles_alarm" value="yes" />Yes
+					<input type="radio" checked="checked" name="obstacles_alarm" value="yes" />Yes
 					<input type="radio" name="obstacles_alarm" value="no" />No
 				</div>
 				
 				<div class="form_field">
 					<label>Do any existing LAN drops need to be redone or replaced?</label>
-					<input type="radio" name="lan_redone_alarm" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_redone_alarm" value="yes" />Yes
 					<input type="radio" name="lan_redone_alarm" value="no" />No
 				</div>
 				
@@ -295,7 +295,7 @@
 			<form id="sixth_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is there one (1) LAN drop for the fire panel?</label>
-					<input type="radio" name="lan_drop_fire" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_drop_fire" value="yes" />Yes
 					<input type="radio" name="lan_drop_fire" value="no" />No
 				</div>
 				
@@ -306,13 +306,13 @@
 				
 				<div class="form_field">
 					<label>Are there any obstacles in the way?</label>
-					<input type="radio" name="obstacles_fire" value="yes" />Yes
+					<input type="radio" checked="checked" name="obstacles_fire" value="yes" />Yes
 					<input type="radio" name="obstacles_fire" value="no" />No
 				</div>
 				
 				<div class="form_field">
 					<label>Do any existing LAN drops need to be redone or replaced?</label>
-					<input type="radio" name="lan_redone_fire" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_redone_fire" value="yes" />Yes
 					<input type="radio" name="lan_redone_fire" value="no" />No
 				</div>
 				
@@ -332,19 +332,19 @@
 			<form id="seventh_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is a phone present?</label>
-					<input type="radio" name="vault_phone" value="yes" />Yes
+					<input type="radio" checked="checked" name="vault_phone" value="yes" />Yes
 					<input type="radio" name="vault_phone" value="no" />No
 				</div>
 				
 				<div class="form_field">
 					<label><i>If yes, is it active?</i></label>
-					<input type="radio" name="vault_phone_active" value="yes" />Yes
+					<input type="radio" checked="checked" name="vault_phone_active" value="yes" />Yes
 					<input type="radio" name="vault_phone_active" value="no" />No
 				</div>
 				
 				<div class="form_field">
 					<label>Do any existing LAN drops need to be redone or replaced?</label>
-					<input type="radio" name="lan_redone_vault" value="yes" />Yes
+					<input type="radio" checked="checked" name="lan_redone_vault" value="yes" />Yes
 					<input type="radio" name="lan_redone_vault" value="no" />No
 				</div>
 				
@@ -364,7 +364,7 @@
 			<form id="eigth_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is there sufficient counter top space?</label>
-					<input type="radio" name="sufficient_counter_space" value="yes" />Yes
+					<input type="radio" checked="checked" name="sufficient_counter_space" value="yes" />Yes
 					<input type="radio" name="sufficient_counter_space" value="no" />No
 				</div>
 				
@@ -375,7 +375,7 @@
 				
 				<div class="form_field">
 					<label>Is there an existing electrical supply?</label>
-					<input type="radio" name="electrical_supply" value="yes" />Yes
+					<input type="radio" checked="checked" name="electrical_supply" value="yes" />Yes
 					<input type="radio" name="electrical_supply" value="no" />No
 				</div>
 				
@@ -386,7 +386,7 @@
 				
 				<div class="form_field">
 					<label>Are there any obstacles in the way?</label>
-					<input type="radio" name="obstacles_electrical" value="yes" />Yes
+					<input type="radio" checked="checked" name="obstacles_electrical" value="yes" />Yes
 					<input type="radio" name="obstacles_electrical" value="no" />No
 				</div>
 				
@@ -406,7 +406,7 @@
 			<form id="ninth_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Is there sufficient floor space?</label>
-					<input type="radio" name="sufficient_floor_space" value="yes" />Yes
+					<input type="radio" checked="checked" name="sufficient_floor_space" value="yes" />Yes
 					<input type="radio" name="sufficient_floor_space" value="no" />No
 				</div>
 				
@@ -417,7 +417,7 @@
 				
 				<div class="form_field">
 					<label>Is there an existing electrical supply?</label>
-					<input type="radio" name="printer_supply" value="yes" />Yes
+					<input type="radio" checked="checked" name="printer_supply" value="yes" />Yes
 					<input type="radio" name="printer_supply" value="no" />No
 				</div>
 				
@@ -428,7 +428,7 @@
 				
 				<div class="form_field">
 					<label>Are there two (2) existing LAN drops?</label>
-					<input type="radio" name="obstacles_electrical" value="yes" />Yes
+					<input type="radio" checked="checked" name="obstacles_electrical" value="yes" />Yes
 					<input type="radio" name="obstacles_electrical" value="no" />No
 				</div>
 				
@@ -453,13 +453,13 @@
 				
 				<div class="form_field">
 					<label>Is a UPS (uninterruptible power supply) in place?</label>
-					<input type="radio" name="ups" value="yes" />Yes
+					<input type="radio" checked="checked" name="ups" value="yes" />Yes
 					<input type="radio" name="ups" value="no" />No
 				</div>
 				
 				<div class="form_field">
 					<label>Is there any existing plumbing around server equipment?</label>
-					<input type="radio" name="plumbing" value="yes" />Yes
+					<input type="radio" checked="checked" name="plumbing" value="yes" />Yes
 					<input type="radio" name="plumbing" value="no" />No
 				</div>
 				
