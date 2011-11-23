@@ -480,7 +480,7 @@
 				<div class="form_field last_field">
 					<label>Additional Comments:</label>
 					<p style="clear:both;">Please note any damage to the kiosk, enclosure, surround, or topper, if present. Please also Include photos of the ATM, ATM room, path from point of delivery to location of ATM, telco, electrical outlets, and security equipment, as well as drawings with specific dimensions of the existing ATM, shape and dimensions of ATM room, placement and distance to other equipment in the ATM room and nearby door swings, noting specific concerns with regard to ATM maintenance clearances.</p>
-					<textarea placeholder="Comment here."></textarea>
+					<textarea name="comments" placeholder="Comment here."></textarea>
 				</div>
 
 				<input type="submit" class="unsaved" id="step11_submit" value="Check all & finish!" />
