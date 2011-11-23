@@ -23,7 +23,7 @@
 <body>
 	<div id="timeline"></div>
 	
-	<div id="container">
+	<div id="container" class="fadeInDown">
 		<div class="form_wrapper clearfix">
 			<h2>1. ATM Site and Contact Information</h2>
 			<p style="border-bottom:1px dashed #999; padding-bottom: 1em;">The information in this section is to be provided by the client.  For Site Contact, please provide person who will answer vendor questions and provide site access.</p>
