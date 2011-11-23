@@ -6,69 +6,74 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Form - SOA / United Bank ATM Survey</title>
+	
+	<title>United Bank ATM Survey</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
+	<!-- CSS concatenated and minified via ant build script-->
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	<!-- end CSS-->
+	<script src="jquery-1.6.2.js"></script>
 </head>
 
 <body>
 	<div id="timeline"></div>
-	
-	<div id="container" class="fadeInDown">
+	<div id="container">
 		<div class="form_wrapper clearfix">
 			<h2>1. ATM Site and Contact Information</h2>
 			<p style="border-bottom:1px dashed #999; padding-bottom: 1em;">The information in this section is to be provided by the client.  For Site Contact, please provide person who will answer vendor questions and provide site access.</p>
 			<form id="first_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>Site Name</label>
-					<input id="site_name" type="text" />
+					<input id="site_name" name="site_name" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label>Street Address</label>
-					<input id="street_address" type="text" />
+					<input id="street_address" name="street_address" type="text" />
 				</div>
 
 				<div class="form_field">
 					<label>City, State, Zip</label>
-					<input id="city_state_zip" type="text" />
+					<input id="city_state_zip" name="city_state_zip" type="text" />
 				</div>
 
 				<div class="form_field">
 					<label>Site Main Phone</label>
-					<input id="site_main_phone" type="text" />
+					<input id="site_main_phone" name="site_main_phone" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label>Site Contact Name</label>
-					<input id="site_contact_name" type="text" />
+					<input id="site_contact_name" name="site_contact_name" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label>Site Contact Phone</label>
-					<input id="site_contact_phone" type="text" />
+					<input id="site_contact_phone" name="site_contact_phone" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label>Site Hours (Business Hours)</label>
-					<input id="site_hours" type="text" />
+					<input id="site_hours" name="site_hours" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label>Site Access Restriction Details</label>
-					<input id="site_access_restriction" type="text" />
+					<input id="site_access_restriction" name="site_access_restriction" type="text" />
 				</div>
 
 				<div class="form_field">
 					<label>ATM Hours (Available to Public)</label>
-					<input id="atm_hours" type="text" />
+					<input id="atm_hours" name="atm_hours" type="text" />
 				</div>
 
 				<div class="form_field">
 					<label>ATM is located On/Off Premise</label>
-					<input id="atm_location_premise" type="text" />
+					<input id="atm_location_premise" name="atm_location_premise" type="text" />
 				</div>
 				
 				<div class="form_field last_field">
@@ -117,7 +122,7 @@
 				
 				<div class="form_field">
 					<label>Max capacity of Electrical circuit (Amps):</label>
-					<input id="max_capacity_circuit" type="text" placeholder="in Amps"/>
+					<input id="max_capacity_circuit" name="max_capacity_circuit" type="text" placeholder="in Amps"/>
 				</div>
 				
 				<div class="form_field">
@@ -128,27 +133,27 @@
 				
 				<div class="form_field">
 					<label><i>If no, distance to LAN room (server room):</i></label>
-					<input id="distance_to_lan" type="text" />
+					<input id="distance_to_lan" name="distance_to_lan" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label>Are there any obstacles in the way?</label>
-					<input id="onstacles_to_lan" type="text" />
+					<input id="onstacles_to_lan" name="onstacles_to_lan" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label><i>If yes, list obstacles:</i></label>
-					<input id="obstacls_to_lan_list" type="text" />
+					<input id="obstacls_to_lan_list" name="obstacls_to_lan_list" type="text" />
 				</div>
 				
 				<div class="form_field">
 					<label>Do any existing LAN drops need to be redone or replaced?</label>
-					<input id="lan_drops_redone" type="text" />
+					<input id="lan_drops_redone" name="lan_drops_redone" type="text" />
 				</div>
 				
 				<div class="form_field last_field">
 					<label><i>If yes, why?</i></label>
-					<input id="lan_drops_redone_why" type="text" />
+					<input id="lan_drops_redone_why" name="lan_drops_redone_why" type="text" />
 				</div>
 				
 				<input type="submit" class="unsaved" id="step2_submit" value="Save Step 2" />
@@ -216,7 +221,7 @@
 				
 				<div class="form_field">
 					<label><i>If no, distance to LAN (server room):</i></label>
-					<input id="distance_to_lan2" type="text" />
+					<input id="distance_to_lan2" name="distance_to_lan2" type="text" />
 				</div>	
 				
 				<div class="form_field">
@@ -233,7 +238,7 @@
 				
 				<div class="form_field">
 					<label><i>If yes, list obstacles:</i></label>
-					<input id="obstacles_lan" type="text" />
+					<input id="obstacles_lan" name="obstacles_lan" type="text" />
 				</div>
 				
 				<div class="form_field">
@@ -244,7 +249,7 @@
 				
 				<div class="form_field last_field">
 					<label><i>If yes, explain why:</i></label>
-					<input id="lan_redone_replaced_why" type="text" />
+					<input id="lan_redone_replaced_why" name="lan_redone_replaced_why" type="text" />
 				</div>					
 								
 				<input type="submit" class="unsaved" id="step4_submit" value="Save Step 4" />
@@ -264,7 +269,7 @@
 				
 				<div class="form_field">
 					<label><i>If no, distance to LAN (server room):</i></label>
-					<input id="distance_to_lan_alarm" type="text" />
+					<input id="distance_to_lan_alarm" name="distance_to_lan_alarm" type="text" />
 				</div>	
 				
 				<div class="form_field">
@@ -281,7 +286,7 @@
 				
 				<div class="form_field last_field">
 					<label><i>If yes, explain why:</i></label>
-					<input id="lan_redone_replaced_why2" type="text" />
+					<input id="lan_redone_replaced_why2" name="lan_redone_replaced_why2" type="text" />
 				</div>	
 
 				<input type="submit" class="unsaved" id="step5_submit" value="Save Step 5" />
@@ -301,7 +306,7 @@
 				
 				<div class="form_field">
 					<label><i>If no, distance to LAN (server room):</i></label>
-					<input id="distance_to_lan_fire" type="text" />
+					<input id="distance_to_lan_fire" name="distance_to_lan_fire" type="text" />
 				</div>	
 				
 				<div class="form_field">
@@ -318,7 +323,7 @@
 				
 				<div class="form_field last_field">
 					<label><i>If yes, explain why:</i></label>
-					<input id="lan_redone_fire_why" type="text" />
+					<input id="lan_redone_fire_why" name="lan_redone_fire_why" type="text" />
 				</div>	
 
 				<input type="submit" class="unsaved" id="step6_submit" value="Save Step 6" />
@@ -350,7 +355,7 @@
 				
 				<div class="form_field last_field">
 					<label><i>If yes, explain why:</i></label>
-					<input id="lan_redone_vault_why" type="text" />
+					<input id="lan_redone_vault_why" name="lan_redone_vault_why" type="text" />
 				</div>	
 
 				<input type="submit" class="unsaved" id="step7_submit" value="Save Step 7" />
@@ -370,7 +375,7 @@
 				
 				<div class="form_field">
 					<label><i>If no, suggest a new location and note:</i></label>
-					<input id="counter_location" type="text" />
+					<input id="counter_location" name="counter_location" type="text" />
 				</div>
 				
 				<div class="form_field">
@@ -381,7 +386,7 @@
 				
 				<div class="form_field">
 					<label><i>If no, distance to panel?</i></label>
-					<input id="electrical_panel_distance" type="text" />
+					<input id="electrical_panel_distance" name="electrical_panel_distance" type="text" />
 				</div>
 				
 				<div class="form_field">
@@ -392,7 +397,7 @@
 				
 				<div class="form_field last_field">
 					<label><i>If yes, list obstacles:</i></label>
-					<input id="obstacles_electrical_list" type="text" />
+					<input id="obstacles_electrical_list" name="obstacles_electrical_list" type="text" />
 				</div>
 
 				<input type="submit" class="unsaved" id="step8_submit" value="Save Step 8" />
@@ -412,7 +417,7 @@
 				
 				<div class="form_field">
 					<label><i>If no, suggest a new location and note:</i></label>
-					<input id="printer_location" type="text" />
+					<input id="printer_location" name="printer_location" type="text" />
 				</div>
 				
 				<div class="form_field">
@@ -423,7 +428,7 @@
 				
 				<div class="form_field">
 					<label><i>If no, distance to panel?</i></label>
-					<input id="printer_panel_distance" type="text" />
+					<input id="printer_panel_distance" name="printer_panel_distance" type="text" />
 				</div>
 				
 				<div class="form_field">
@@ -434,7 +439,7 @@
 				
 				<div class="form_field last_field">
 					<label><i>If no, distance to LAN room (server room):</i></label>
-					<input id="lan_distance_printer" type="text" />
+					<input id="lan_distance_printer" name="lan_distance_printer" type="text" />
 				</div>
 
 				<input type="submit" class="unsaved" id="step9_submit" value="Save Step 9" />
@@ -448,7 +453,7 @@
 			<form id="tenth_form" action="" class="clearfix">
 				<div class="form_field">
 					<label>How many unused network ports?</label>
-					<input id="unused_ports" type="text" placeholder="# of ports"/>
+					<input id="unused_ports" name="unused_ports" type="text" placeholder="# of ports"/>
 				</div>
 				
 				<div class="form_field">
@@ -465,7 +470,7 @@
 				
 				<div class="form_field last_field">
 					<label><i>If yes, elaborate?</i></label>
-					<input id="plumbing_elaboration" type="text" />
+					<input id="plumbing_elaboration" name="plumbing_elaboration" type="text" />
 				</div>
 
 				<input type="submit" class="unsaved" id="step10_submit" value="Save Step 10" />
@@ -486,54 +491,45 @@
 				<input type="submit" class="unsaved" id="step11_submit" value="Check all & finish!" />
 			</form>
 		</div>
-		
-		<div id="results" class="results"></div>	
 	</div> <!--! end of #container -->
+	
+	<div id="results" class="results">
+	</div>
 		
 
 	<script>
 		$(document).ready( start );
-
-		var record_id = null;
 		
 		function start() {
-			// create new table record
-			createNewRecord();
-			
 			// create listeners 
-			$("form").submit( function() { alert("submitting form: " + $(this).attr('id') ); sendForm( this ); return false; } );
+			$("#first_form").submit( sendFormFields );
 			// $("#step2_submit").click( function() { alert( "clicked!" ); return false; } );
 			
-			// $("#first_form").submit( function() { alert( "this has been submitted! ---- " + $(this).serialize() ); });
+			$("#first_form").submit( function() { alert( "this has been submitted! ---- " + $(this).serialize() ); });
 		}
 		
-		function createNewRecord() {
-			$.post("bin/insertNewRecord.php", function( data ){
-				$("#results").html( "(" + jQuery.trim(data) + ")" );
-				// record the new record id
-				record_id = jQuery.trim(data);
-			});
-		}
-		
-		function sendForm( form_elem ) {
+		function sendFormFields() {
+			
 			// build post data
-			var form_data = $( form_elem ).serialize();
-
-			// add the current record id
-			form_data = "id=" + record_id + "&" + form_data; 
-
-			$.post("bin/update_table.php", form_data, function( data ){
+			var form_data = "";
+			
+			$("form").each( function() {
+				if( form_data == "" ) { 
+					form_data = $(this).serialize();
+				}
+				else {
+					form_data += "&" + $(this).serialize();
+				}
+			} );
+			
+			$.post("create_table.php", form_data, function( data ){
 				$("#results").html( data );
 			});
-
+			
 			return false;
 		}
+	
 	</script>
 
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-	<script defer src="js/plugins.js"></script>
-	<script defer src="js/script.js"></script>
 </body>
 </html>
